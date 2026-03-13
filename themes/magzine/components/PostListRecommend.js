@@ -17,7 +17,7 @@ const PostListRecommend = ({ latestPosts, allNavPages }) => {
   const title = siteConfig('MAGZINE_RECOMMEND_POST_TITLE', '', CONFIG)
 
   if (!recommendPosts || recommendPosts.length === 0) {
-    return <PostListEmpty />
+    return <></>
   }
 
   return (
